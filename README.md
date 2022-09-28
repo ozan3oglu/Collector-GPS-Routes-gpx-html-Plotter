@@ -3,7 +3,7 @@
   Converting GPS data to gpx format in csv and plotting routes for comparison after filter applied
 
   GPS data obtained from the device is collected with the help of Collector. The data obtained after entering the IMEI and time range is written to a cvs file. Kalman Filter is applied for GPS route correction over this data and written to a csv file. These csv files are converted to Gpx files and an html file is created, and both routes can be followed in a new tab that opens automatically in the browser. The html files are saved to the file location along with the created two separate gpx files with and without filters. At the same time, the html file containing the two routes is saved in the same location.
-  If desired, two separate routes can be followed from their own html files. Besides, 3 gpx files can be examined in another map application
+  If desired, two separate routes can be followed from their own html files. Besides, three gpx files can be examined in another map application
 
   *** In the name of the confidentiality of the studies, the information of the collector and collector_kalman_filter software, from which the data were  obtained, is hidden. For this purpose, the relevant code part and .py files are hidden.
   
